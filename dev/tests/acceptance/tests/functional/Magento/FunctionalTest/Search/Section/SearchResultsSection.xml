@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../vendor/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/Page/etc/SectionObject.xsd">
+    <section name="SearchResultsSection">
+        <element name="pageTitle" type="text" selector="h1.page-title"/>
+        <element name="firstProductTitle" type="text" selector=".product-items>.product-item:first-child a.product-item-link"/>
+    </section>
+</config>

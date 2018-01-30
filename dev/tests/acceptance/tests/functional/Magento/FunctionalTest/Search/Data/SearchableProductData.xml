@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../../vendor/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/DataGenerator/etc/dataProfileSchema.xsd">
+    <entity name="SearchableProduct" type="product">
+        <data key="sku" unique="suffix">SearchableProduct</data>
+        <data key="type_id">simple</data>
+        <data key="attribute_set_id">4</data>
+        <data key="name" unique="suffix">SearchableProduct</data>
+        <data key="price">123.00</data>
+        <data key="visibility">4</data>
+        <data key="status">1</data>
+        <data key="qty">123</data>
+        <required-entity type="product_extension_attribute">EavStockItem</required-entity>
+    </entity>
+</config>
